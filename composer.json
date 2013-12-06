@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-0": {
+            "BZRK": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "dev-master",
+        "psr/log": "1.0.*@dev"
+    }
+}

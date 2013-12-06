@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ember</title>
+        <meta charset="UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="script/base.js"></script>
+        <style type="text/css">
+            #tasks{
+                margin-top:5px;
+                border: 1px solid #CCC;
+                border-radius: 5px;
+                background-color:#ecfff0;
+            }
+            
+            #open .h, #inProgress .h, #done .h{
+                text-align:center;
+                font-weight:bold;
+                padding-bottom:10px;
+                margin-bottom:10px;
+            }
+            
+            
+            
+            #open, #inProgress, #done{
+                width:33%;
+                height:800px;
+            }
+            
+            #open, #inProgress{
+                float:left;
+            }
+            
+            #done{
+                margin-left:66%;
+                background-color:#ecfff0;
+            }
+            
+            #inProgress{
+                background-color:#fffeec
+            }
+            
+            #open{
+                background-color:#ffecec;
+            }
+            .task{
+                border: 1px solid #CCC;
+                border-radius: 5px;
+                width:45%;
+                margin:2%;
+                float:left;
+            }
+            .task .title{
+                background-color: #EEE;
+                padding:5px;
+                font-weight:bold;
+                overflow:hidden;
+            }
+            .task .content{
+                background-color: #FFF;
+                padding:5px;
+                height:100px;
+                overflow:hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input id="text" type="text"/><button id="button">Add Task</button>
+        </div>
+        <div id="tasks">
+            <div id="open" class="states"><div class="h">Open</div></div>
+            <div id="inProgress" class="states"><div class="h">In progress</div></div>
+            <div id="done" class="states"><div class="h">Done</div></div>
+        </div>
+    </body>
+</html>
