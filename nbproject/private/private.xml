@@ -3,6 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/Task.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/Listener/InitTasks.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/Listener/AddTask.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/Message.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/OnOpenListener.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/TaskStack.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/public/index.html</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/Listener/SetStatus.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/OnMessageListener.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/src/BZRK/Board.php</file>
+            <file>file:/home/thomas/NetBeansProjects/Ember/public/script/base.js</file>
             <file>file:/home/thomas/NetBeansProjects/Ember/server.php</file>
         </group>
     </open-files>
