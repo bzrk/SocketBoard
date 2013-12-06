@@ -1,5 +1,8 @@
 SocketBoard
 ===========
 
-1. start server.php
-2. navigate with broser to public/index.html
+1. Composer laufen lassen
+2. start server.php
+3. öffne in mehr als einem Firefox-Fenster public/index.html
+4. erstelle taks
+5. verschiebe tasks
